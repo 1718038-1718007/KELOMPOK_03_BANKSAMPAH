@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/recyler2"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@color/recyler1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="35dp"
+            android:text="Bank Sampah"
+            android:textColor="#ffffff"
+            android:textSize="40sp"
+            android:textStyle="italic">
+        </TextView>
+    </RelativeLayout>
+    <EditText
+        android:id="@+id/create_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:hint="Id Setor" />
+    <EditText
+        android:id="@+id/create_nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Nama" />
+    <EditText
+        android:id="@+id/create_kelas"
+        android:hint="Alamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"/>
+    <EditText
+        android:id="@+id/create_angkatan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Sampah"
+        android:layout_marginTop="25dp"/>
+    <EditText
+        android:id="@+id/create_jurusan"
+        android:hint="Berat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"/>
+
+    <Button
+        android:textColor="#fff"
+        android:background="@drawable/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Create Setor Sampah"
+        android:textStyle="italic"/>
+
+    <Button
+        android:textColor="#fff"
+        android:background="@drawable/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Read Setor Sampah"
+        android:textStyle="italic"/>
+</LinearLayout>
